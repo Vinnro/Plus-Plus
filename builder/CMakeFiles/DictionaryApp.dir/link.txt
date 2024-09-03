@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++  -O0 -g -fprofile-instr-generate -fcoverage-mapping -g  -fprofile-instr-generate -fcoverage-mapping CMakeFiles/DictionaryApp.dir/src/main.cpp.o CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o CMakeFiles/DictionaryApp.dir/src/menu.cpp.o -o DictionaryApp
