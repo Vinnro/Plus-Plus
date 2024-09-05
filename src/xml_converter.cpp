@@ -1,9 +1,5 @@
-// src/xml_converter.cpp
-
 #include "xml_converter.h"
 #include <sstream>
-#include "dictionary_record.h"
-#include <stdexcept>
 
 std::string recordToXml(const DictionaryRecord& record, const std::string& recordName) {
     std::stringstream ss;
@@ -13,6 +9,14 @@ std::string recordToXml(const DictionaryRecord& record, const std::string& recor
     ss << "  <emphasis>" << record.emphasis << "</emphasis>\n";
     ss << "</" << recordName << ">";
     return ss.str();
+}
+
+std::string recordToXml(const DictionaryRecord& record, const char* recordName) {
+    return recordToXml(record, std::string(recordName));
+}
+
+std::string recordToXml(const DictionaryRecord& record, const char* recordName, size_t length) {
+    return recordToXml(record, std::string(recordName, length));
 }
 
 DictionaryRecord xmlToRecord(const std::string& xmlString) {
@@ -38,4 +42,8 @@ DictionaryRecord xmlToRecord(const std::string& xmlString) {
     }
 
     return DictionaryRecord(word, meaning, emphasis);
+}
+
+DictionaryRecord xmlToRecord(const char* xmlString) {
+    return xmlToRecord(std::string(xmlString));
 }

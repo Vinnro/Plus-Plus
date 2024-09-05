@@ -1,7 +1,7 @@
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock-all.cc \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock-all.cc \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h \
   /data/data/com.termux/files/usr/include/c++/v1/errno.h \
   /data/data/com.termux/files/usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/include/c++/v1/__config_site \
@@ -835,7 +835,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/unary_negate.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h \
   /data/data/com.termux/files/usr/include/c++/v1/ostream \
   /data/data/com.termux/files/usr/include/c++/v1/__format/format_args.h \
   /data/data/com.termux/files/usr/include/c++/v1/__format/format_arg_store.h \
@@ -861,16 +861,16 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /data/data/com.termux/files/usr/include/bits/lockf.h \
   /data/data/com.termux/files/usr/include/bits/sysconf.h \
   /data/data/com.termux/files/usr/include/android/legacy_unistd_inlines.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h \
   /data/data/com.termux/files/usr/include/assert.h \
   /data/data/com.termux/files/usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/include/c++/v1/istream \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
   /data/data/com.termux/files/usr/include/sys/stat.h \
   /data/data/com.termux/files/usr/include/linux/stat.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
   /data/data/com.termux/files/usr/include/regex.h \
   /data/data/com.termux/files/usr/include/c++/v1/condition_variable \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/stop_token.h \
@@ -879,15 +879,15 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
   /data/data/com.termux/files/usr/include/c++/v1/any \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
   /data/data/com.termux/files/usr/include/c++/v1/sstream \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
   /data/data/com.termux/files/usr/include/sys/wait.h \
   /data/data/com.termux/files/usr/include/sys/resource.h \
   /data/data/com.termux/files/usr/include/linux/resource.h \
@@ -897,31 +897,31 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: \
   /data/data/com.termux/files/usr/include/c++/v1/map \
   /data/data/com.termux/files/usr/include/c++/v1/__tree \
   /data/data/com.termux/files/usr/include/c++/v1/set \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /data/data/com.termux/files/usr/include/c++/v1/cxxabi.h \
   /data/data/com.termux/files/usr/include/c++/v1/__cxxabi_config.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
   /data/data/com.termux/files/usr/include/c++/v1/cassert \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googlemock/src/gmock.cc
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock-matchers.cc \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googlemock/src/gmock.cc

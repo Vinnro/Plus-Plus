@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp" "CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/src/main.cpp" "CMakeFiles/DictionaryApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/main.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/src/menu.cpp" "CMakeFiles/DictionaryApp.dir/src/menu.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/menu.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp" "CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp" "CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/main.cpp" "CMakeFiles/DictionaryApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/main.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp" "CMakeFiles/DictionaryApp.dir/src/menu.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/menu.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp" "CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o" "gcc" "CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

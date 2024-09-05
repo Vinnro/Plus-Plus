@@ -1,63 +1,106 @@
-// src/menu.cpp
-
-#include "menu.h"
 #include "xml_converter.h"
+
 #include <iostream>
 #include <string>
+#include <stdexcept>
 
 void runDialog() {
-    while (true) {
-        std::cout << "Выберите действие:\n";
-        std::cout << "1. Ввести новую запись\n";
-        std::cout << "2. Преобразовать запись в XML\n";
-        std::cout << "3. Преобразовать XML в запись\n";
-        std::cout << "4. Выход\n";
-        std::cout << "Ваш выбор: ";
+    int choice;
+    DictionaryRecord record;
+    std::string recordName;
 
-        int choice;
+    std::cout << "Введите слово: ";
+    std::cin >> record.word;
+    std::cout << "Введите толкование: ";
+    std::cin.ignore();
+    std::getline(std::cin, record.meaning);
+    std::cout << "Введите номер ударной гласной: ";
+    std::cin >> record.emphasis;
+
+    while (true) {
+        std::cout << "\nМеню:\n";
+        std::cout << "1. Преобразовать DictionaryRecord в XML (std::string)\n";
+        std::cout << "2. Преобразовать DictionaryRecord в XML (const char*)\n";
+        std::cout << "3. Преобразовать DictionaryRecord в XML (const char* + size_t)\n";
+        std::cout << "4. Преобразовать XML строку в DictionaryRecord (std::string)\n";
+        std::cout << "5. Преобразовать XML строку в DictionaryRecord (const char*)\n";
+        std::cout << "6. Выйти\n";
+        std::cout << "Выберите действие: ";
         std::cin >> choice;
 
-        if (choice == 4) break;
+        switch (choice) {
+            case 1: {
+                std::cout << "Введите название записи (std::string): ";
+                std::cin >> recordName;
+                std::string xmlString = recordToXml(record, recordName);
+                std::cout << "Результат XML:\n" << xmlString << "\n";
+                break;
+            }
+            case 2: {
+                char recordName[50];
+                std::cout << "Введите название записи (const char*): ";
+                std::cin >> recordName;
+                std::string xmlString = recordToXml(record, recordName);
+                std::cout << "Результат XML:\n" << xmlString << "\n";
+                break;
+            }
+            case 3: {
+                char recordName[50];
+                size_t length;
+                std::cout << "Введите название записи (const char*): ";
+                std::cin >> recordName;
+                std::cout << "Введите длину названия записи: ";
+                std::cin >> length;
+                std::string xmlString = recordToXml(record, recordName, length);
+                std::cout << "Результат XML:\n" << xmlString << "\n";
+                break;
+            }
+            case 4: {
+                std::string xmlString, line;
+                std::cout << "Введите XML строку (введите 'END' для завершения ввода):\n";
+                std::cin.ignore(); 
 
-        if (choice == 1) {
-            DictionaryRecord record;
-            std::cout << "Введите слово: ";
-            std::cin >> record.word;
-            std::cin.ignore();
-            std::cout << "Введите толкование: ";
-            std::getline(std::cin, record.meaning);
-            std::cout << "Введите номер ударной гласной: ";
-            std::cin >> record.emphasis;
+                while (std::getline(std::cin, line)) {
+                    if (line == "END") {
+                        break;
+                    }
+                    xmlString += line + "\n";
+                }
 
-            std::cout << "Новая запись создана: " << record.toString() << "\n";
-        } else if (choice == 2) {
-            DictionaryRecord record;
-            std::string recordName;
-            std::cout << "Введите имя записи: ";
-            std::cin >> recordName;
-            std::cin.ignore();
-            std::cout << "Введите слово: ";
-            std::cin >> record.word;
-            std::cin.ignore();
-            std::cout << "Введите толкование: ";
-            std::getline(std::cin, record.meaning);
-            std::cout << "Введите номер ударной гласной: ";
-            std::cin >> record.emphasis;
+                try {
+                    DictionaryRecord newRecord = xmlToRecord(xmlString);
+                    std::cout << "Результат:\n" << newRecord.toString() << "\n";
+                } catch (const std::runtime_error& e) {
+                    std::cout << "Ошибка при обработке XML: " << e.what() << "\n";
+                }
+                break;
+            }
+            case 5: {
+                std::string xmlString, line;
+                std::cout << "Введите XML строку (введите 'END' для завершения ввода):\n";
+                std::cin.ignore(); 
 
-            std::string xml = recordToXml(record, recordName);
-            std::cout << "XML представление:\n" << xml << "\n";
-        } else if (choice == 3) {
-            std::string xml;
-            std::cout << "Введите XML строку: ";
-            std::cin.ignore();
-            std::getline(std::cin, xml);
+                while (std::getline(std::cin, line)) {
+                    if (line == "END") {
+                        break;
+                    }
+                    xmlString += line + "\n";
+                }
 
-            DictionaryRecord record = xmlToRecord(xml);
-            std::cout << "Преобразованная запись: " << record.toString() << "\n";
-        } else {
-            std::cout << "Неверный выбор. Пожалуйста, попробуйте снова.\n";
+                try {
+                    DictionaryRecord newRecord = xmlToRecord(xmlString.c_str());
+                    std::cout << "Результат:\n" << newRecord.toString() << "\n";
+                } catch (const std::runtime_error& e) {
+                    std::cout << "Ошибка при обработке XML: " << e.what() << "\n";
+                }
+                break;
+            }
+            case 6:
+                std::cout << "Выход из программы.\n";
+                return;
+            default:
+                std::cout << "Неверный выбор, попробуйте снова.\n";
+                break;
         }
     }
-
-    std::cout << "Программа завершена.\n";
 }

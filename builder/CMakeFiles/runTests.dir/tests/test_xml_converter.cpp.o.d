@@ -1,6 +1,6 @@
 CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: \
-  /data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest.h \
   /data/data/com.termux/files/usr/include/c++/v1/cstddef \
   /data/data/com.termux/files/usr/include/c++/v1/__assert \
   /data/data/com.termux/files/usr/include/c++/v1/__config \
@@ -834,16 +834,16 @@ CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/include/c++/v1/__memory/temp_value.h \
   /data/data/com.termux/files/usr/include/c++/v1/__split_buffer \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
   /data/data/com.termux/files/usr/include/c++/v1/sstream \
   /data/data/com.termux/files/usr/include/c++/v1/istream \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
   /data/data/com.termux/files/usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/include/sys/stat.h \
   /data/data/com.termux/files/usr/include/linux/stat.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
   /data/data/com.termux/files/usr/include/regex.h \
   /data/data/com.termux/files/usr/include/c++/v1/condition_variable \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/stop_token.h \
@@ -852,10 +852,10 @@ CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /data/data/com.termux/files/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
   /data/data/com.termux/files/usr/include/c++/v1/any \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
   /data/data/com.termux/files/usr/include/c++/v1/functional \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/binary_negate.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/bind.h \
@@ -881,7 +881,7 @@ CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /data/data/com.termux/files/usr/include/c++/v1/__functional/unary_negate.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
   /data/data/com.termux/files/usr/include/sys/wait.h \
   /data/data/com.termux/files/usr/include/sys/resource.h \
   /data/data/com.termux/files/usr/include/linux/resource.h \
@@ -891,19 +891,19 @@ CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/map \
   /data/data/com.termux/files/usr/include/c++/v1/__tree \
   /data/data/com.termux/files/usr/include/c++/v1/set \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /data/data/com.termux/files/usr/include/c++/v1/cxxabi.h \
   /data/data/com.termux/files/usr/include/c++/v1/__cxxabi_config.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
   /data/data/com.termux/files/usr/include/c++/v1/cassert \
   /data/data/com.termux/files/usr/include/assert.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
-  /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /data/data/com.termux/files/home/oop_lab1/include/xml_converter.h \
-  /data/data/com.termux/files/home/oop_lab1/include/dictionary_record.h
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/include/xml_converter.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/include/dictionary_record.h

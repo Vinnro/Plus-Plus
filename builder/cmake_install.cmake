@@ -1,4 +1,4 @@
-# Install script for directory: /data/data/com.termux/files/home/oop_lab1
+# Install script for directory: /data/data/com.termux/files/home/one/Plus-Plus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-build/cmake_install.cmake")
+  include("/data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-build/cmake_install.cmake")
 
 endif()
 
@@ -63,6 +63,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/data/data/com.termux/files/home/oop_lab1/builder/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/data/data/com.termux/files/home/one/Plus-Plus/builder/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

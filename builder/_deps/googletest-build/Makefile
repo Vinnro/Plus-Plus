@@ -57,10 +57,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/oop_lab1
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/one/Plus-Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/oop_lab1/builder
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/one/Plus-Plus/builder
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-build//CMakeFiles/progress.marks
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles 0
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-build//CMakeFiles/progress.marks
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

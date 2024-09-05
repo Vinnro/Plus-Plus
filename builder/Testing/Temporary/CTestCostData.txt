@@ -1,6 +1,0 @@
-DictionaryRecordTest.DefaultConstructor 1 0.00716896
-DictionaryRecordTest.ParameterizedConstructor 1 0.00709984
-DictionaryRecordTest.ToString 1 0.00774682
-XmlConverterTest.RecordToXml 1 0.00717792
-XmlConverterTest.XmlToRecord 1 0.00925635
----

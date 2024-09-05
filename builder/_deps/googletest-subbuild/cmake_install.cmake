@@ -1,4 +1,4 @@
-# Install script for directory: /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-subbuild
+# Install script for directory: /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

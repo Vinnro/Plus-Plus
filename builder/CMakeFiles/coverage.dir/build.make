@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/oop_lab1
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/one/Plus-Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/oop_lab1/builder
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/one/Plus-Plus/builder
 
 # Utility rule file for coverage.
 
@@ -67,7 +67,7 @@ include CMakeFiles/coverage.dir/compiler_depend.make
 include CMakeFiles/coverage.dir/progress.make
 
 CMakeFiles/coverage:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating code coverage report with llvm-cov..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating code coverage report with llvm-cov..."
 	/data/data/com.termux/files/usr/bin/llvm-profdata merge -sparse default.profraw -o default.profdata
 	/data/data/com.termux/files/usr/bin/llvm-cov show ./runTests -instr-profile=default.profdata -output-dir=coverage-report
 
@@ -84,6 +84,6 @@ CMakeFiles/coverage.dir/clean:
 .PHONY : CMakeFiles/coverage.dir/clean
 
 CMakeFiles/coverage.dir/depend:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles/coverage.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles/coverage.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/coverage.dir/depend
 

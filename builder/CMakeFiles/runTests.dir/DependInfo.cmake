@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp" "CMakeFiles/runTests.dir/src/dictionary_record.cpp.o" "gcc" "CMakeFiles/runTests.dir/src/dictionary_record.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp" "CMakeFiles/runTests.dir/src/xml_converter.cpp.o" "gcc" "CMakeFiles/runTests.dir/src/xml_converter.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/tests/test_dictionary_record.cpp" "CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/tests/test_main.cpp" "CMakeFiles/runTests.dir/tests/test_main.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_main.cpp.o.d"
-  "/data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp" "CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp" "CMakeFiles/runTests.dir/src/dictionary_record.cpp.o" "gcc" "CMakeFiles/runTests.dir/src/dictionary_record.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp" "CMakeFiles/runTests.dir/src/xml_converter.cpp.o" "gcc" "CMakeFiles/runTests.dir/src/xml_converter.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/tests/test_dictionary_record.cpp" "CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/tests/test_main.cpp" "CMakeFiles/runTests.dir/tests/test_main.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_main.cpp.o.d"
+  "/data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp" "CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o" "gcc" "CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

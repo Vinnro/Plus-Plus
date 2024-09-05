@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/oop_lab1/include -isystem /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest/include -isystem /data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/data/data/com.termux/files/home/one/Plus-Plus/include -isystem /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest/include -isystem /data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src/googletest
 
-CXX_FLAGS =  -O0 -g -fprofile-instr-generate -fcoverage-mapping -g -std=gnu++20
+CXX_FLAGS =  -O0 -g -fprofile-instr-generate -fcoverage-mapping -O2 -g -DNDEBUG -std=gnu++20
 

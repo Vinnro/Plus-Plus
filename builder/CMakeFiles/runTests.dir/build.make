@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/oop_lab1
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/one/Plus-Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/oop_lab1/builder
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/one/Plus-Plus/builder
 
 # Include any dependencies generated for this target.
 include CMakeFiles/runTests.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/runTests.dir/progress.make
 include CMakeFiles/runTests.dir/flags.make
 
 CMakeFiles/runTests.dir/tests/test_main.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/tests/test_main.cpp.o: /data/data/com.termux/files/home/oop_lab1/tests/test_main.cpp
+CMakeFiles/runTests.dir/tests/test_main.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/tests/test_main.cpp
 CMakeFiles/runTests.dir/tests/test_main.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runTests.dir/tests/test_main.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_main.cpp.o -MF CMakeFiles/runTests.dir/tests/test_main.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_main.cpp.o -c /data/data/com.termux/files/home/oop_lab1/tests/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runTests.dir/tests/test_main.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_main.cpp.o -MF CMakeFiles/runTests.dir/tests/test_main.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_main.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/tests/test_main.cpp
 
 CMakeFiles/runTests.dir/tests/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_main.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/tests/test_main.cpp > CMakeFiles/runTests.dir/tests/test_main.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/tests/test_main.cpp > CMakeFiles/runTests.dir/tests/test_main.cpp.i
 
 CMakeFiles/runTests.dir/tests/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_main.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/tests/test_main.cpp -o CMakeFiles/runTests.dir/tests/test_main.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/tests/test_main.cpp -o CMakeFiles/runTests.dir/tests/test_main.cpp.s
 
 CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o: /data/data/com.termux/files/home/oop_lab1/tests/test_dictionary_record.cpp
+CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/tests/test_dictionary_record.cpp
 CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o -MF CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o -c /data/data/com.termux/files/home/oop_lab1/tests/test_dictionary_record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o -MF CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/tests/test_dictionary_record.cpp
 
 CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/tests/test_dictionary_record.cpp > CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/tests/test_dictionary_record.cpp > CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.i
 
 CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/tests/test_dictionary_record.cpp -o CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/tests/test_dictionary_record.cpp -o CMakeFiles/runTests.dir/tests/test_dictionary_record.cpp.s
 
 CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: /data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp
+CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp
 CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o -MF CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o -c /data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o -MF CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp
 
 CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp > CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp > CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.i
 
 CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/tests/test_xml_converter.cpp -o CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/tests/test_xml_converter.cpp -o CMakeFiles/runTests.dir/tests/test_xml_converter.cpp.s
 
 CMakeFiles/runTests.dir/src/dictionary_record.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/src/dictionary_record.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp
+CMakeFiles/runTests.dir/src/dictionary_record.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp
 CMakeFiles/runTests.dir/src/dictionary_record.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runTests.dir/src/dictionary_record.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/dictionary_record.cpp.o -MF CMakeFiles/runTests.dir/src/dictionary_record.cpp.o.d -o CMakeFiles/runTests.dir/src/dictionary_record.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runTests.dir/src/dictionary_record.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/dictionary_record.cpp.o -MF CMakeFiles/runTests.dir/src/dictionary_record.cpp.o.d -o CMakeFiles/runTests.dir/src/dictionary_record.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp
 
 CMakeFiles/runTests.dir/src/dictionary_record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/src/dictionary_record.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp > CMakeFiles/runTests.dir/src/dictionary_record.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp > CMakeFiles/runTests.dir/src/dictionary_record.cpp.i
 
 CMakeFiles/runTests.dir/src/dictionary_record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/src/dictionary_record.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp -o CMakeFiles/runTests.dir/src/dictionary_record.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp -o CMakeFiles/runTests.dir/src/dictionary_record.cpp.s
 
 CMakeFiles/runTests.dir/src/xml_converter.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/src/xml_converter.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp
+CMakeFiles/runTests.dir/src/xml_converter.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp
 CMakeFiles/runTests.dir/src/xml_converter.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runTests.dir/src/xml_converter.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/xml_converter.cpp.o -MF CMakeFiles/runTests.dir/src/xml_converter.cpp.o.d -o CMakeFiles/runTests.dir/src/xml_converter.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runTests.dir/src/xml_converter.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/src/xml_converter.cpp.o -MF CMakeFiles/runTests.dir/src/xml_converter.cpp.o.d -o CMakeFiles/runTests.dir/src/xml_converter.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp
 
 CMakeFiles/runTests.dir/src/xml_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/src/xml_converter.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp > CMakeFiles/runTests.dir/src/xml_converter.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp > CMakeFiles/runTests.dir/src/xml_converter.cpp.i
 
 CMakeFiles/runTests.dir/src/xml_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/src/xml_converter.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp -o CMakeFiles/runTests.dir/src/xml_converter.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp -o CMakeFiles/runTests.dir/src/xml_converter.cpp.s
 
 # Object files for target runTests
 runTests_OBJECTS = \
@@ -159,9 +159,9 @@ runTests: CMakeFiles/runTests.dir/build.make
 runTests: lib/libgtest_main.a
 runTests: lib/libgtest.a
 runTests: CMakeFiles/runTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable runTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable runTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
-	/data/data/com.termux/files/usr/bin/cmake -D TEST_TARGET=runTests -D TEST_EXECUTABLE=/data/data/com.termux/files/home/oop_lab1/builder/runTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/data/data/com.termux/files/home/oop_lab1/builder -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=runTests_TESTS -D CTEST_FILE=/data/data/com.termux/files/home/oop_lab1/builder/runTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /data/data/com.termux/files/usr/share/cmake-3.30/Modules/GoogleTestAddTests.cmake
+	/data/data/com.termux/files/usr/bin/cmake -D TEST_TARGET=runTests -D TEST_EXECUTABLE=/data/data/com.termux/files/home/one/Plus-Plus/builder/runTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/data/data/com.termux/files/home/one/Plus-Plus/builder -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=runTests_TESTS -D CTEST_FILE=/data/data/com.termux/files/home/one/Plus-Plus/builder/runTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /data/data/com.termux/files/usr/share/cmake-3.30/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/runTests.dir/build: runTests
@@ -172,6 +172,6 @@ CMakeFiles/runTests.dir/clean:
 .PHONY : CMakeFiles/runTests.dir/clean
 
 CMakeFiles/runTests.dir/depend:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles/runTests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles/runTests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/runTests.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: \
-  /data/data/com.termux/files/home/oop_lab1/src/menu.cpp \
-  /data/data/com.termux/files/home/oop_lab1/include/menu.h \
-  /data/data/com.termux/files/home/oop_lab1/include/dictionary_record.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp \
+  /data/data/com.termux/files/home/one/Plus-Plus/include/xml_converter.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/include/dictionary_record.h \
   /data/data/com.termux/files/usr/include/c++/v1/string \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/max.h \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/comp.h \
@@ -756,7 +756,6 @@ CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/__bit/byteswap.h \
   /data/data/com.termux/files/usr/include/c++/v1/__bit/endian.h \
   /data/data/com.termux/files/usr/include/c++/v1/__bit/has_single_bit.h \
-  /data/data/com.termux/files/home/oop_lab1/include/xml_converter.h \
   /data/data/com.termux/files/usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/include/c++/v1/ios \
   /data/data/com.termux/files/usr/include/c++/v1/__locale \

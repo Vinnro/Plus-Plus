@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/oop_lab1
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/one/Plus-Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/oop_lab1/builder
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/one/Plus-Plus/builder
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DictionaryApp.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/DictionaryApp.dir/progress.make
 include CMakeFiles/DictionaryApp.dir/flags.make
 
 CMakeFiles/DictionaryApp.dir/src/main.cpp.o: CMakeFiles/DictionaryApp.dir/flags.make
-CMakeFiles/DictionaryApp.dir/src/main.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/main.cpp
+CMakeFiles/DictionaryApp.dir/src/main.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/main.cpp
 CMakeFiles/DictionaryApp.dir/src/main.cpp.o: CMakeFiles/DictionaryApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DictionaryApp.dir/src/main.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/main.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/main.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/main.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DictionaryApp.dir/src/main.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/main.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/main.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/main.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/main.cpp
 
 CMakeFiles/DictionaryApp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DictionaryApp.dir/src/main.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/main.cpp > CMakeFiles/DictionaryApp.dir/src/main.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/main.cpp > CMakeFiles/DictionaryApp.dir/src/main.cpp.i
 
 CMakeFiles/DictionaryApp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DictionaryApp.dir/src/main.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/main.cpp -o CMakeFiles/DictionaryApp.dir/src/main.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/main.cpp -o CMakeFiles/DictionaryApp.dir/src/main.cpp.s
 
 CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o: CMakeFiles/DictionaryApp.dir/flags.make
-CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp
+CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp
 CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o: CMakeFiles/DictionaryApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp
 
 CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp > CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp > CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.i
 
 CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp -o CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp -o CMakeFiles/DictionaryApp.dir/src/dictionary_record.cpp.s
 
 CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o: CMakeFiles/DictionaryApp.dir/flags.make
-CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp
+CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp
 CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o: CMakeFiles/DictionaryApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp
 
 CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp > CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp > CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.i
 
 CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/xml_converter.cpp -o CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/xml_converter.cpp -o CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.s
 
 CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: CMakeFiles/DictionaryApp.dir/flags.make
-CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: /data/data/com.termux/files/home/oop_lab1/src/menu.cpp
+CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: /data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp
 CMakeFiles/DictionaryApp.dir/src/menu.cpp.o: CMakeFiles/DictionaryApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DictionaryApp.dir/src/menu.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/menu.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/menu.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/menu.cpp.o -c /data/data/com.termux/files/home/oop_lab1/src/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DictionaryApp.dir/src/menu.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DictionaryApp.dir/src/menu.cpp.o -MF CMakeFiles/DictionaryApp.dir/src/menu.cpp.o.d -o CMakeFiles/DictionaryApp.dir/src/menu.cpp.o -c /data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp
 
 CMakeFiles/DictionaryApp.dir/src/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DictionaryApp.dir/src/menu.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/oop_lab1/src/menu.cpp > CMakeFiles/DictionaryApp.dir/src/menu.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp > CMakeFiles/DictionaryApp.dir/src/menu.cpp.i
 
 CMakeFiles/DictionaryApp.dir/src/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DictionaryApp.dir/src/menu.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/oop_lab1/src/menu.cpp -o CMakeFiles/DictionaryApp.dir/src/menu.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/one/Plus-Plus/src/menu.cpp -o CMakeFiles/DictionaryApp.dir/src/menu.cpp.s
 
 # Object files for target DictionaryApp
 DictionaryApp_OBJECTS = \
@@ -141,7 +141,7 @@ DictionaryApp: CMakeFiles/DictionaryApp.dir/src/xml_converter.cpp.o
 DictionaryApp: CMakeFiles/DictionaryApp.dir/src/menu.cpp.o
 DictionaryApp: CMakeFiles/DictionaryApp.dir/build.make
 DictionaryApp: CMakeFiles/DictionaryApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DictionaryApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DictionaryApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DictionaryApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/DictionaryApp.dir/clean:
 .PHONY : CMakeFiles/DictionaryApp.dir/clean
 
 CMakeFiles/DictionaryApp.dir/depend:
-	cd /data/data/com.termux/files/home/oop_lab1/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1 /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder /data/data/com.termux/files/home/oop_lab1/builder/CMakeFiles/DictionaryApp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /data/data/com.termux/files/home/one/Plus-Plus/builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder /data/data/com.termux/files/home/one/Plus-Plus/builder/CMakeFiles/DictionaryApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DictionaryApp.dir/depend
 

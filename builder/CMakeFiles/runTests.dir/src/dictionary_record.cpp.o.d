@@ -1,6 +1,6 @@
 CMakeFiles/runTests.dir/src/dictionary_record.cpp.o: \
-  /data/data/com.termux/files/home/oop_lab1/src/dictionary_record.cpp \
-  /data/data/com.termux/files/home/oop_lab1/include/dictionary_record.h \
+  /data/data/com.termux/files/home/one/Plus-Plus/src/dictionary_record.cpp \
+  /data/data/com.termux/files/home/one/Plus-Plus/include/dictionary_record.h \
   /data/data/com.termux/files/usr/include/c++/v1/string \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/max.h \
   /data/data/com.termux/files/usr/include/c++/v1/__algorithm/comp.h \

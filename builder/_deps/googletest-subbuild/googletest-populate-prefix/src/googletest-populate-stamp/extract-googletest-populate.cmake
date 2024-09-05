@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.12.1.zip" ABSOLUTE)
-get_filename_component(directory "/data/data/com.termux/files/home/oop_lab1/builder/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.12.1.zip" ABSOLUTE)
+get_filename_component(directory "/data/data/com.termux/files/home/one/Plus-Plus/builder/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
